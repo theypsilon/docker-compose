@@ -1,6 +1,6 @@
 FROM alpine:3.3
 
-ARG DOCKER_VERSION=1.10.3
+ARG DOCKER_VERSION=1.11.1
 ARG COMPOSE_VERSION=1.7.1
 
 RUN apk add --no-cache curl && \
